@@ -1,0 +1,18 @@
+{
+  "name": "mock-nasa-api",
+  "version": "1.0.0",
+  "description": "mock api to return multiple Nasa Photos of the day ",
+  "main": "index.js",
+  "author": "Henry Blevins",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
